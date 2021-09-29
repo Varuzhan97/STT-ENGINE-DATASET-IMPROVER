@@ -85,6 +85,8 @@ def start_course(courses_tts_folder, courses_data_folder, vad_audio, stt, model_
             if utils.check_audio(correct_answer, file_name, file_size):
                 #Update collected data in csv
                 utils.write_to_csv(file_name, file_size, correct_answer, collection_folder)
+            else:
+                os.remove(file_name)
             #Save the checkpoint in config
             utils.save_course_checkpoint(course_language_id, current_command_id, config_file_data, config_file)
     else:
@@ -102,6 +104,8 @@ def start_course(courses_tts_folder, courses_data_folder, vad_audio, stt, model_
             if utils.check_audio(correct_answer, file_name, file_size):
                 #Update collected data in csv
                 utils.write_to_csv(file_name, file_size, correct_answer, collection_folder)
+            else:
+                os.remove(file_name)
             #Save the checkpoint in config
             utils.save_course_checkpoint(course_language_id, current_command_id, config_file_data, config_file)
     check_checkpoint_limit(len(numbers_keys_list) + len(conversation_keys_list), course_language_id, config_file_data, config_file)
