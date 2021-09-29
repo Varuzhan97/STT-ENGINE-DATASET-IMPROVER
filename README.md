@@ -12,7 +12,7 @@ Audio clips specifications:
   * Channels number: 1(mono).
   * Sampling rate: 16000 Hz.
 
-The CSV files have the following fields:
+The CSV file have the following fields:
   * wav_filename: the path of the sample, either absolute or relative. Here, the importer produces relative paths.
   * wav_filesize: samples size given in bytes, used for sorting the data before training. Expects positive integer.
   * transcript: transcription target for the sample.
