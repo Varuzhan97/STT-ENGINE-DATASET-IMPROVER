@@ -21,13 +21,15 @@ An important note is that DeepSpeech can only process audios that are longer tha
 
 ### Environment and Requirements
   * OS: Ubuntu 20.04.
-  * Python3 version: 3.6.9.
-  * Pip3 version: 9.0.1.
+  * Python 3 version: 3.6.9.
+  * Pip 3 version: 9.0.1.
 
-Install the required dependencies using pip3:
+Install the required dependencies:
+> sudo apt-get install -y mpg321
+
+> sudo apt install python3-pip python3-pyaudio libatlas3-base
+
 > pip3 install -r requirements.txt
-
-> sudo apt install ffmpeg
 
 ### Supported Languages are:
   - [x] English(ID: 0)
@@ -38,5 +40,5 @@ Input arguments are:
   * --native_language_id - an Argument For The Native Language (0 ---> "En" / 1 ---> "Ru").
   * --course_language_id - an Argument For The Native Language (0 ---> "En" / 1 ---> "Ru").
 
-First time run example:
+First time run example (collects English audio clips):
 > python3 main.py --native_language 1 --course_language 0

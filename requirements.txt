@@ -1,13 +1,7 @@
-pip3 install deepspeech --no-cache-dir
-pip3 install PyYAML==5.4.1
-pip3 install webrtcvad==2.0.10
-pip3 install tensorflow==1.14.0
-pip3 install halo==0.0.31
-pip3 install numpy==1.19.5
-pip3 install scipy==1.1.0
-
-sudo apt-get install -y mpg321
-sudo apt install git python3-pip python3-pyaudio libatlas3-base
-
-python 3 version 3.6.9
-pip3 version 9.0.1cd source
+deepspeech --no-cache-dir
+PyYAML==5.4.1
+webrtcvad==2.0.10
+tensorflow==1.14.0
+halo==0.0.31
+numpy==1.19.5
+scipy==1.1.0
