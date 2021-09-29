@@ -8,14 +8,14 @@ First, the user should listen to the speech in the native language, then the tra
 [DeepSpeech](https://github.com/mozilla/DeepSpeech) is a speech-to-text engine based on [Baidu's Deep Speech research paper](https://arxiv.org/abs/1412.5567). Project DeepSpeech uses datasets provided by Mozilla's other project calling Common Voice.
 
 Audio clips specifications:
-  * Audio file format is .wav.
-  * Channels number is 1(mono).
-  * Sampling rate is 16000 Hz.
+  * Audio file format: WAV.
+  * Channels number: 1(mono).
+  * Sampling rate: 16000 Hz.
 
-The .csv files have the following fields:
-  * wav_filename - the path of the sample, either absolute or relative. Here, the importer produces relative paths.
-  * wav_filesize - samples size given in bytes, used for sorting the data before training. Expects positive integer.
-  * transcript - transcription target for the sample.
+The CSV files have the following fields:
+  * wav_filename: the path of the sample, either absolute or relative. Here, the importer produces relative paths.
+  * wav_filesize: samples size given in bytes, used for sorting the data before training. Expects positive integer.
+  * transcript: transcription target for the sample.
 
 An important note is that DeepSpeech can only process audios that are longer than 0.5 seconds, shorter than 20 seconds and are not too short for transcript. The tool checks for these too.
 
@@ -37,8 +37,8 @@ Install the required dependencies:
 
 ### Run
 Input arguments are:
-  * --native_language_id - an Argument For The Native Language (0 ---> "En" / 1 ---> "Ru").
-  * --course_language_id - an Argument For The Native Language (0 ---> "En" / 1 ---> "Ru").
+  * --native_language_id: an Argument For The Native Language (0 ---> "En" / 1 ---> "Ru").
+  * --course_language_id: an Argument For The Native Language (0 ---> "En" / 1 ---> "Ru").
 
 First time run example (collects English audio clips):
 > python3 main.py --native_language 1 --course_language 0
