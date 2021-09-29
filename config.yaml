@@ -1,0 +1,12 @@
+Project: STT-ENGINE-DATASET-IMPROVER
+Languages:
+  En: 0
+  Ru: 1
+Courses:
+  Data Folder: Courses/Data
+  TTS Folder: TTS/Courses
+  Checkpoint English: 2
+  Checkpoint Russian: 5
+  Saved Data Folder: Courses/Collection
+STT:
+  Model Folder: STT/Model

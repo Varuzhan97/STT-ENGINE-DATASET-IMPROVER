@@ -1,0 +1,3 @@
+data.yaml contains 2 lists: "Numbers" and "Conversation".
+Each item index in the list corresponds to the ID(name of file) of sppech
+in the folders "~/language_id/1" and "~/language_id/3".

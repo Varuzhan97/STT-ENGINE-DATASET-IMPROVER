@@ -1,0 +1,98 @@
+Numbers:
+  ноль: zero
+  один: one
+  два: two
+  три: three
+  четыре: four
+  пять: five
+  шесть: six
+  семь: seven
+  восемь: eight
+  девять: nine
+  десять: ten
+  одиннадцать: eleven
+  двенадцать: twelve
+  тринадцать: thirteen
+  четырнадцать: fourteen
+  пятнадцать: fifteen
+  шестнадцать: sixteen
+  семнадцать: seventeen
+  восемнадцать: eighteen
+  девятнадцать: nineteen
+  двадцать: twenty
+  двадцать один: twenty one
+Conversation:
+  руби: ruby
+  привет: hi
+  здравствуй: hello
+  как тебя зовут: what is your name
+  что означает твое имя: what does your name mean
+  представься: introduce yourself
+  кто ты: who are you
+  какая у тебя нация: what is your nationality
+  откуда ты: where are you from
+  какая твоя родина: what is your motherland
+  сколько тебе лет: how old are you
+  какой твой пол: what is your gender
+  ты мальчик или девочка: are you a boy or a girl
+  ты мальчик: are you a boy
+  ты девушка: are you a girl
+  у тебя есть друзья: do you have friends
+  я твой друг: am i your friend
+  ты мой друг: are you my friend
+  как ты: how are you
+  что ты умеешь делать: what can you do
+  ты можешь считать: can you count
+  ты можешь играть в игры: can you play games
+  в какие игры ты можешь играть: what games can you play
+  во сколько игр ты можешь сыграть: how many games can you play
+  давай сыграем в игру: let's play a game
+  я хочу поиграть в игру: i want to play a game
+  давай сыграем в столицы: let's play capitals
+  я хочу поиграть в столицы: i want to play capitals
+  давай сыграем в двадцать один: let's play twenty one
+  я хочу поиграть в двадцать один: i want to play twenty one
+  ты человек: are you a human
+  ты умеешь петь: can you sing
+  ты умеешь готовить: can you cook
+  ты умеешь сделать фото: can you take a photo
+  ты умеешь сделать селфи: can you take a selfie
+  ты умеешь есть: can you eat
+  ты умеешь пить: can you drink
+  ты умеешь проголодаться: can you get hungry
+  ты знаешь мое имя: do you know my name
+  ты в порядке: are you okay
+  ты робот: are you a robot
+  ты умеешь танцевать: can you dance
+  ты можешь спать: can you sleep
+  ты говоришь по английски: do you speak english
+  ты говоришь по русски: do you speak russian
+  танцуй: dance
+  начни танцевать: start to dance
+  иди сюда: come here
+  иди вперед: go forward
+  иди назад: go back
+  иди налево: go left
+  иди направо: go right
+  повернись: turn around
+  убаюкивай меня: lull me to sleep
+  сыграй колыбельную: play a lullaby
+  спи: sleep
+  ты можешь поспать: you can sleep
+  я хочу поспать: i want to sleep
+  выключайся: shut down
+  выключи питание: power off
+  пока: bye
+  до свидания: goodbye
+  сколько языков ты знаешь: how many languages do you know
+  научи меня команды на английском: teach me the commands in english
+  переключи язык: switch the language
+  смени язык: change the language
+  говори по английски: speak in english
+  переключись на английский: switch to english
+  говори по русски: speak in russian
+  переключись на русский: switch to russian
+  останови: stop
+  останови игру: stop the game
+  я не могу ответить: i can not answer
+  я не знаю: i do not know
