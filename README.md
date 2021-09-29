@@ -32,8 +32,8 @@ Install the required dependencies:
 > pip3 install -r requirements.txt
 
 ### Supported Languages are:
-  - [x] English(ID: 0)
-  - [x] Russian(ID: 1)
+  - [x] English (ID: 0)
+  - [x] Russian (ID: 1)
 
 ### Run
 Input arguments are:
