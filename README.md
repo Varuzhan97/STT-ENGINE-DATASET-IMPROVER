@@ -1,5 +1,5 @@
 # STT-Engine-Dataset-Improver
-A tool that allows to improve speech-to-text engine datasets. The tool uses a pre-trained model.
+A tool that allows to improve speech-to-text engine datasets. The tool uses pre-trained models.
 
 ### Description
 The tool can generate datasets for DeepSpeech speech-to-text engine using a pre-trained DeepSpeech model.
