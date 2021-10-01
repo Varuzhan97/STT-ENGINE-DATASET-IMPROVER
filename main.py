@@ -16,6 +16,8 @@ def parse_args():
                         help='An Argument For The Native Language (0 ---> "En" / 1 ---> "Ru").')
     parser.add_argument('--course_language_id', default = None,
                         help='An Argument For The Native Language (0 ---> "En" / 1 ---> "Ru").')
+    parser.add_argument('--validation', default = True,
+                        help='An Argument For The validation Of Speech With Deepspeech Pre-Trained Model (0 ---> False / 1 ---> True). The Default Value Is 1.')
     args = parser.parse_args()
     if (args.native_language_id is None) or (args.course_language_id is None):
             print('Please Specify --native_language_id/--course_language_id Arguments.')
@@ -61,6 +63,6 @@ if __name__ == "__main__":
     #Start the course
     #Make data collection path for language
     collection_folder = os.path.join(courses_collection_folder, params.course_language_id)
-    courses.start_course(os.path.join(courses_tts_folder, params.native_language_id), os.path.join(courses_data_folder, params.native_language_id), vad_audio, stt, model_path, main_config, config_file, collection_folder)
+    courses.start_course(os.path.join(courses_tts_folder, params.native_language_id), os.path.join(courses_data_folder, params.native_language_id), vad_audio, stt, model_path, main_config, config_file, collection_folder, params.validation)
 
     config_file.close()

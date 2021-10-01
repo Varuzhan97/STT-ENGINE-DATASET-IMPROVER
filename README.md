@@ -3,7 +3,7 @@ A tool that allows to improve speech-to-text engine datasets. The tool uses pre-
 
 ### Description
 The tool can generate datasets for DeepSpeech speech-to-text engine using a pre-trained DeepSpeech model.
-First, the user should listen to the speech in the native language, then the translated variant (translated in the course language). After that, the user should repeat the translated speech. The pre-trained model will validate the speech and include recorded audio file, validated transcription and file size into CSV file corresponding to the format of DeepSpeech's Common Voice corpus structure.
+First, the user should listen to the speech in the native language, then the translated variant (translated in the course language). After that, the user should repeat the translated speech. The pre-trained model will validate (optional) the speech and include recorded audio file, validated transcription and file size into CSV file corresponding to the format of DeepSpeech's Common Voice corpus structure.
 
 [DeepSpeech](https://github.com/mozilla/DeepSpeech) is a speech-to-text engine based on [Baidu's Deep Speech research paper](https://arxiv.org/abs/1412.5567). Project DeepSpeech uses datasets provided by Mozilla's other project calling Common Voice.
 
@@ -39,6 +39,7 @@ Install the required dependencies:
 Input arguments are:
   * --native_language_id: an Argument For The Native Language (0 ---> "En" / 1 ---> "Ru").
   * --course_language_id: an Argument For The Native Language (0 ---> "En" / 1 ---> "Ru").
+  * --validation: an Argument For The validation Of Speech With Deepspeech Pre-Trained Model (0 ---> False / 1 ---> True). The Default Value Is 1.
 
 First time run example (collects English audio clips):
 > python3 main.py --native_language 1 --course_language 0
