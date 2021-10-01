@@ -88,7 +88,7 @@ def start_course(courses_tts_folder, courses_data_folder, vad_audio, stt, model_
             correct_answer = numbers_data.get(numbers_keys_list[i])
             #Load current number speech
             current_number_speech = os.path.join(numbers_speech, str(i) + ".mp3")
-            current_command_id, file_name, file_size = get_answer(stt, vad_audio, correct_answer, current_number_speech, repeat_speech, again_repeat_speech, excellent_speech, current_command_id, collection_folder, validation)
+            current_command_id, file_name, file_size = get_answer(stt, vad_audio, correct_answer, current_number_speech, repeat_speech, again_repeat_speech, excellent_speech, current_command_id, collection_folder, int(validation))
             #Check for audio length and update csv
             if utils.check_audio(correct_answer, file_name, file_size):
                 #Update collected data in csv
