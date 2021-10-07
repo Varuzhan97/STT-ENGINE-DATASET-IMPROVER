@@ -172,7 +172,7 @@ def listen_audio(vad_audio, save_wav = False, save_wav_path = None):
             vad_audio.pa.terminate()
             text = vad_audio.model.stt(np.frombuffer(wav_data, np.int16))
 
-            #Save wav and update/create csv
+            #Save wav
             if save_wav:
                 file_name = os.path.join(save_wav_path, datetime.now().strftime("savewav_%Y-%m-%d_%H-%M-%S_%f.wav"))
                 file_size = vad_audio.write_wav(file_name, wav_data)
